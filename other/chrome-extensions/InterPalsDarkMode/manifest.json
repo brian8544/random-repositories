@@ -1,0 +1,13 @@
+{
+  "name": "InterPals Dark Mode",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Sets the colors of InterPals to a darker color, this is not an official extension.",
+  "icons": { "128": "logo.png"},
+  "content_scripts": [
+    {
+      "matches": ["https://*.interpals.net/*", "file://*/*"],
+      "css": ["hook.css"]
+    }
+  ]
+}

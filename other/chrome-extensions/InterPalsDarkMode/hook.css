@@ -1,0 +1,153 @@
+/* Sets the colors of InterPals to a darker color, this is not an official extension. */
+/* Made by Brian8544 */
+/* https://github.com/brian8544/InterPalsDarkMode */
+
+/* ---------- Bypass "Allow Ads" pop-up on website ---------- */
+/* Credits: https://gist.githubusercontent.com/stowball/c2ed64ec6f77f3dc862938df6a0e6bda/raw/fde5a0fc02431afab3a64095786de5ff39f9c084/anti-adblocker-notifications.css */
+metering-modal,
+.fc-ab-root.fc-ab-root.fc-ab-root,
+[class*="sp_veil"][class*="sp_veil"][class*="sp_veil"],
+[class*="sp_message_container"][class*="sp_message_container"][class*="sp_message_container"],
+[id*="__vliadb"][id*="__vliadb"][id*="__vliadb"],
+.ml-webforms-popup-overlay,
+webpushrpromptconatiner,
+[class*="popupally"],
+#onesignal-slidedown-container,
+.pushowl-optin,
+.martech-modal-component-overlay,
+body.mol-fe-ab-dialog iframe ~ * [class*="overlay-"],
+body.mol-fe-ab-dialog iframe ~ * [class*="wrapper-"],
+.airship-html-prompt-shadow,
+[class*="pe-optin"],
+.tp-modal,
+.tp-backdrop,
+[style*="z-index: 21474"]:not([data-radix-portal]),
+.single-article .overlay,
+.blocking-ads-modal {
+    display: none !important;
+}
+
+/* Set main InterPals background color, with scrolling enabled, cause we are bypassing the pop-up */
+body {
+    background: #191923 !important;
+    overflow: scroll !important; /* Enables scrolling after bypassing "Allow Ads" sign */
+}
+
+#mainContainer,
+.profDataTopField {
+    background: #20202a !important;
+}
+
+.aQSBody,
+.myIP {
+    background: #191923 !important;
+}
+
+#aQS h1,
+.aQSField h3,
+form label,
+.yTitle,
+.loadInto,
+.copy,
+.copy a,
+.prEdLnk a,
+p,
+.sResLinks a,
+#sCSave,
+#sCReset,
+a,
+.clickable,
+.sResMain,
+.wall_post_location,
+.bnavSection a {
+    color: #ffc107 !important;
+}
+
+.profDataBoxText,
+#prStatQ,
+.profDataTopData,
+.wall_posts,
+.profBotStat,
+.sResTxtField,
+.wall_post_msg,
+.lfor {
+    color: #bdc1c6 !important;
+}
+
+.profModules,
+.boxHead h1,
+.profModules,
+.boxHead h1 a,
+.randUsers,
+.randUsers h1{
+  background: #191923 !important;
+}
+
+.wall-comment-form /* Looks better this way, I think... */{
+  text-align: center
+}
+
+.wall-comment-form textarea{
+  background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%) !important;
+  color: #bdc1c6 !important;
+}
+
+
+.bottomNav,
+.wall,
+.sResCont,
+.allRnd,
+.sCField,
+.rboxSub,
+#aQSResults,
+.wall_post,
+a.cur_page,
+.pages a,
+#prof-action-links{
+    background: linear-gradient(159deg,#2d2d3a 0%,#2b2b35 100%) !important;
+}
+
+#topNav,
+#topNav a,
+.topMemberNav,
+a.memberLink,
+a.memberLink:visited {
+    border-bottom: 0px !important;
+    color: #000000 !important;
+}
+
+.bnavSection h2,
+.topWelcome,
+.notYou {
+    color: #bdc1c6 !important;
+}
+
+.profBotStat,
+.rc-anchor-invisible,
+.yellowFooter /* Hides IP & account activity information. It can also be found in account settings, so it's better to hide */{
+    display: none !important;
+}
+
+#controls {
+    background: linear-gradient(159deg,#2d2d3a 0%,#2b2b35 100%) !important;
+}
+
+.th_wrap{
+    background: #191923 !important;
+    border: 1px solid transparent !important;
+}
+
+.th_snippet.pm_new,
+#threads_main.full,
+#threads_right,
+.msg_body,
+.markItUpEditor{
+    background: linear-gradient(159deg,#2d2d3a 0%,#2b2b35 100%) !important;
+    border: 0px !important;
+    color: #ffc107 !important;
+}
+
+#threads_right_bottom{
+    background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%) !important;
+    color: #ffc107 !important;
+}

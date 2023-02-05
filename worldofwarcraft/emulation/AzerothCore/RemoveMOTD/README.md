@@ -1,0 +1,1 @@
+Remove "This server runs on AzerothCore www.azerothcore.org", when logging in.

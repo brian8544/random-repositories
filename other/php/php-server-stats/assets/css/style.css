@@ -1,0 +1,46 @@
+body,
+html {
+    background: #fff;
+}
+.footer,
+.footer a,
+.footer a:visited {
+    color: #888;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+#container {
+    width: 320px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #efefef;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #aaa;
+    -webkit-box-shadow: 0 0 5px #aaa;
+    -moz-box-shadow: 0 0 5px #aaa;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.description {
+    font-weight: 700;
+}
+#details {
+    font-size: 0.8em;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+.big {
+    font-size: 1.2em;
+}
+.footer {
+    font-size: 0.5em;
+    text-align: center;
+}
